@@ -1,0 +1,42 @@
+/* Centered the question and answers added simple styling to them */
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+/* Background color and softened corners for the question textbox */
+.container {
+    width: 500px;
+    max-width: 75%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+/* gave each answer its own row, added a gap and some room inbetween each answer */
+.button-grid {
+    display: grid;
+    gap: 10%;
+    margin: 8px;
+    padding: 15px 0;
+}
+/* added padding to start button */
+.start-button {
+    padding: 7px 0;
+}
+/* added padding to next button */
+.next-button {
+    padding: 7px 0;
+}
+/* Hiding the next button until the game is started */
+.hide {
+    display:none;
+}
+
+.show {
+    display:block;
+}

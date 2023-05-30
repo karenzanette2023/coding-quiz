@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="./assets/style.css" rel="stylesheet">
+    <script defer src="./assets/js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <header>
+        <button class = "Hs-button"
+        id="view-hs">highscores</button>
+    <!-- added <p id answerElement -->
+    <p id="answerElement"></p>
+    <div id= "container" class="container">
+        <div id="inital-box" class = "hide">
+            <form>
+                Add Your Initals
+            <label for="initals">Initals:</label>
+            <input type="text" id="initals" inital="initals">
+            </form>
+        
+        
+        </div>
+        <div id="question-container" class ="hide"></div>
+        <div id="question">Questions</div>
+        <div id="answer-buttons" class ="button-grid">
+        <button id="button-one" class="button">Answer 1</button>
+        <button id="button-two" class="button">Answer 2</button>
+        <button id="button-three" class="button">Answer 3</button>
+        <button id="button-four" class="button">Answer 4</button>
+        </div>
+        <div class="controls">
+            <button id="start-button" class="start-button button">Start</button>
+            <!-- Need to add something so next button doesn't get hidden in CSS -->
+            <button id="next-button" class="next-button button">Next</button>
+        </div>
+        <div id="quiz-timer">
+            timer
+        </div>
+    </div>
+</body>
+</html>
